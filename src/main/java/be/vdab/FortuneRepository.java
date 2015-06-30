@@ -5,7 +5,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import java.util.List;
 
-@Named
+@Named // Same as @ManagedBean
 public class FortuneRepository {
     @PersistenceContext
     private EntityManager entityManager;
