@@ -17,6 +17,10 @@ public class User {
 
     private String birthDate;
 
+    private String email;
+
+    private String gender;
+
     /**
      * Used by JPA.
      */
@@ -27,6 +31,10 @@ public class User {
         this.firstName = firstName;
         this.lastName = lastName;
         this.birthDate = birthDate;
+    }
+
+    public String fullName(){
+        return firstName + " " + lastName;
     }
 
     public Integer getId() {
@@ -59,5 +67,21 @@ public class User {
 
     public void setBirthDate(String birthDate) {
         this.birthDate = birthDate;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }
