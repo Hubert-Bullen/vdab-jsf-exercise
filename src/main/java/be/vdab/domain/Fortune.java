@@ -1,4 +1,4 @@
-package be.vdab;
+package be.vdab.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

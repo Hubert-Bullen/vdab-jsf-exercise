@@ -48,3 +48,6 @@ insert into Fortune(message) values('The man on the top of the mountain did not 
 insert into Fortune(message) values('You will conquer obstacles to achieve success.');
 insert into Fortune(message) values('Joys are often the shadows, cast by sorrows.');
 insert into Fortune(message) values('Fortune favors the brave.');
+
+insert into User(firstName, lastName, birthDate) values('Jimi', 'Hendrix', '1948-12-17');
+insert into User(firstName, lastName, birthDate) values('Janis', 'Joplin', '1952-07-13');

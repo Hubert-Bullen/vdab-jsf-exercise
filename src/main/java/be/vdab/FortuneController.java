@@ -1,6 +1,9 @@
 package be.vdab;
 
 import javax.enterprise.context.RequestScoped;
+import be.vdab.domain.Fortune;
+import be.vdab.repository.FortuneRepository;
+
 import javax.inject.Inject;
 import javax.inject.Named;
 import java.util.List;
